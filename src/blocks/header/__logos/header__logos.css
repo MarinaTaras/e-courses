@@ -1,0 +1,10 @@
+.header__logos {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (min-width: 720px) {
+  .header__logos {
+    gap: 20px;
+  }
+}

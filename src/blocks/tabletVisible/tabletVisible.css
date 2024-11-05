@@ -1,0 +1,9 @@
+.tabletVisible {
+  display: flex;
+}
+
+@media screen and (min-width: 1000px) {
+  .tabletVisible {
+    display: none;
+  }
+}

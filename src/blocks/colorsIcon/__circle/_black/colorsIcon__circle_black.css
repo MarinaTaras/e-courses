@@ -1,0 +1,7 @@
+.colorsIcon__circle_black {
+  background: linear-gradient(
+    270deg,
+    rgba(2, 2, 2, 1) 0%,
+    rgba(102, 102, 102, 1) 100%
+  );
+}

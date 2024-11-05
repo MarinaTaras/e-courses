@@ -1,0 +1,80 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../vendor/constants.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_el/header__logo_el.css);
+@import url(../blocks/header/__logo/_m/header__logo_m.css);
+@import url(../blocks/header/__logos/header__logos.css);
+@import url(../blocks/header/__wrapper/header__wrapper\ .css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__curseName/header__curseName.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menuIcon/header__menuIcon.css);
+
+@import url(../blocks/divider/divider.css);
+@import url(../blocks/divider/__line/divider__line.css);
+@import url(../blocks/divider/__span/divider__span.css);
+@import url(../blocks/divider/__text/divider__text.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__divider/content__divider.css);
+@import url(../blocks/content/__divider/_white/content__divider_white.css);
+@import url(../blocks/content/__divider/_lite/content__divider_lite.css);
+@import url(../blocks/content/__divider/_gray/content__divider_gray.css);
+
+@import url(../blocks/design/design.css);
+@import url(../blocks/design/__advantages/design__advantages.css);
+
+@import url(../blocks/advantage/advantage.css);
+@import url(../blocks/advantage/_black/advantage_black.css);
+@import url(../blocks/advantage/__img/_black/advantage__img_black.css);
+@import url(../blocks/advantage/__img/advantage__img.css);
+
+@import url(../blocks/colorsIcon/colorsIcon.css);
+@import url(../blocks/colorsIcon/__circle/colorsIcon__circle.css);
+@import url(../blocks/colorsIcon/__circle/_black/colorsIcon__circle_black.css);
+@import url(../blocks/colorsIcon/__circle/_blur/colorsIcon__circle_blur.css);
+@import url(../blocks/colorsIcon/__circle/_green/colorsIcon__circle_green.css);
+@import url(../blocks/colorsIcon/__circle/_lemon/colorsIcon__circle_lemon.css);
+
+@import url(../blocks/scaner/scaner.css);
+@import url(../blocks/scaner/__container/scaner__container.css);
+@import url(../blocks/scaner/__imgContainer/scaner__imgContainer.css);
+@import url(../blocks/scaner/__img/scaner__img.css);
+@import url(../blocks/scaner/__advantages/scaner__advantages.css);
+@import url(../blocks/scaner/__advantage/scaner__advantage.css);
+@import url(../blocks/scaner/__text/scaner__text.css);
+
+@import url(../blocks/accessories/accessories.css);
+@import url(../blocks/accessories/__container/accessories__container.css);
+@import url(../blocks/accessory/accessory.css);
+@import url(../blocks/accessory/__img/accessory__img.css);
+
+@import url(../blocks/applications/applications.css);
+@import url(../blocks/applications/__container/applications__container.css);
+@import url(../blocks/application/application.css);
+
+@import url(../blocks/text/__black/text__black.css);
+@import url(../blocks/text/__small/text__small.css);
+@import url(../blocks/text/__white/text__white.css);
+@import url(../blocks/text/__title/text__title.css);
+@import url(../blocks/text/__subtitle/text__subtitle.css);
+
+@import url(../blocks/icon/icon.css);
+
+@import url(../blocks/page/__wrapper/page__wrapper.css);
+
+@import url(../blocks/indent/indent.css);
+
+@import url(../blocks/group/group.css);
+
+@import url(../blocks/mobileVisible/mobileVisible.css);
+
+@import url(../blocks/tabletVisible/tabletVisible.css);
+@import url(../blocks/tabletVisible/_only/tabletVisible_only.css);
+
+@import url(../blocks/fullscreenVisible/fullscreenVisible.css);

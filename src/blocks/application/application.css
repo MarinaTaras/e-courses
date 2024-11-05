@@ -1,0 +1,25 @@
+.application {
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+
+.application:nth-child(4n + 1) {
+  flex-direction: row;
+}
+
+@media screen and (min-width: 720px) {
+  .application {
+    max-width: 210px;
+    flex-direction: column;
+  }
+  .application:nth-child(4n + 1) {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .application {
+    max-width: 303px;
+  }
+}

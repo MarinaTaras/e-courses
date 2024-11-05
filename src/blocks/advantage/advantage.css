@@ -1,0 +1,17 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .advantage {
+    max-width: 325px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .advantage {
+    max-width: 222px;
+  }
+}

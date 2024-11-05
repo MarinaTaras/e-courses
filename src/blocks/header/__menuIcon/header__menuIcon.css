@@ -1,0 +1,52 @@
+.header__menuIcon {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 16px;
+  position: relative;
+  z-index: 3;
+}
+
+.header__menuIcon span {
+  content: "";
+  position: absolute;
+  background-color: rgba(215, 14, 42, 1);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 7px;
+  transition: all 0.1s ease 0s;
+}
+
+.header__menuIcon:before,
+.header__menuIcon:after {
+  content: "";
+  background-color: rgba(215, 14, 42, 1);
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.header__menuIcon:before {
+  top: 0;
+}
+
+.header__menuIcon:after {
+  bottom: 0;
+}
+
+.header__menuIcon.active span {
+  transform: scale(0);
+}
+
+.header__menuIcon.active:before {
+  transform: rotate(45deg);
+  top: 7px;
+}
+
+.header__menuIcon.active:after {
+  transform: rotate(-45deg);
+  bottom: 7px;
+}

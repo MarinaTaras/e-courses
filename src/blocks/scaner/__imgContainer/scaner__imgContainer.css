@@ -1,0 +1,11 @@
+.scaner__imgContainer {
+  display: flex;
+  margin: 0 -15px;
+}
+
+@media screen and (min-width: 720px) {
+  .scaner__imgContainer {
+    width: 100%;
+    margin: 0;
+  }
+}

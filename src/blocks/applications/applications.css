@@ -1,0 +1,13 @@
+.applications {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 720px) {
+  .applications {
+    gap: 50px;
+    padding-top: 40px;
+  }
+}

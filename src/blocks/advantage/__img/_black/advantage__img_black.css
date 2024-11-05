@@ -1,0 +1,15 @@
+.advantage__img_black {
+  width: 230px;
+}
+
+@media screen and (min-width: 720px) {
+  .advantage__img_black {
+    width: 265px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .advantage__img_black {
+    width: 162px;
+  }
+}

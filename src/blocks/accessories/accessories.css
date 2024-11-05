@@ -1,0 +1,19 @@
+.accessories {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+@media screen and (min-width: 720px) {
+  .accessories {
+    margin-bottom: 60px;
+    gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .accessories {
+    gap: 54px;
+  }
+}

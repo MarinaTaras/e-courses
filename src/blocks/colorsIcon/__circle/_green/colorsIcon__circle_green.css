@@ -1,0 +1,7 @@
+.colorsIcon__circle_green {
+  background: linear-gradient(
+    270deg,
+    rgba(2, 153, 101, 1) 0%,
+    rgba(102, 193, 162, 1) 100%
+  );
+}

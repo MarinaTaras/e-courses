@@ -1,0 +1,11 @@
+.group {
+  display: flex;
+  align-items: start;
+  gap: 7px;
+}
+
+@media screen and (min-width: 720px) {
+  .group {
+    gap: 20px;
+  }
+}

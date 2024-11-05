@@ -1,0 +1,38 @@
+.design__advantages {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 20px;
+  align-items: start;
+}
+
+#flex-element-1 {
+  order: 1;
+}
+
+#flex-element-2 {
+  order: 3;
+}
+
+#flex-element-3 {
+  order: 2;
+}
+
+@media screen and (min-width: 720px) {
+  .design__advantages {
+    display: flex;
+    row-gap: 50px;
+  }
+
+  #flex-element-1 {
+    order: 1;
+  }
+
+  #flex-element-2 {
+    order: 2;
+  }
+
+  #flex-element-3 {
+    order: 3;
+  }
+}

@@ -1,0 +1,14 @@
+.text__subtitle {
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 700;
+  align-self: start;
+  letter-spacing: -1.5px;
+}
+
+@media screen and (min-width: 720px) {
+  .text__subtitle {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

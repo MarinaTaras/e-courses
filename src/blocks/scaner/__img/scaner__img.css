@@ -1,0 +1,15 @@
+.scaner__img {
+  max-width: 320px;
+}
+
+@media screen and (min-width: 720px) {
+  .scaner__img {
+    max-width: 325px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .scaner__img {
+    max-width: 465px;
+  }
+}

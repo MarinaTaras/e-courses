@@ -1,0 +1,15 @@
+.text__black {
+  display: flex;
+  justify-self: start;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width: 1000px) {
+  .text__black {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

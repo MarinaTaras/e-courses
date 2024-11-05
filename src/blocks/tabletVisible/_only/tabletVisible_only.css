@@ -1,0 +1,16 @@
+  .tabletVisible_only {
+    display: none;
+  }
+
+
+@media screen and (min-width: 720px) {
+  .tabletVisible_only {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .tabletVisible_only {
+    display: none;
+  }
+}

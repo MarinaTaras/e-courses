@@ -1,0 +1,15 @@
+.header__curseName {
+  display: none;
+  margin: 10px 0 9px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  max-width: 704px;
+}
+
+@media screen and (min-width: 720px) {
+  .header__curseName {
+    max-width: 459px;
+    display: block;
+  }
+}

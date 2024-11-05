@@ -1,0 +1,9 @@
+.header__logo_el {
+  max-width: 25px;
+}
+
+@media screen and (min-width: 720px) {
+  .header__logo_el {
+    max-width: 35px;
+  }
+}

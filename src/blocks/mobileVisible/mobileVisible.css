@@ -1,0 +1,9 @@
+.mobileVisible {
+  display: flex;
+}
+
+@media screen and (min-width: 720px) {
+  .mobileVisible {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.text__small {
+  display: flex;
+  justify-self: start;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 720px) {
+  .text__small {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .text__small {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,19 @@
+.design {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 50px;
+  gap: 30px;
+}
+
+@media screen and (min-width: 720px) {
+  .design {
+    gap: 40px;
+    padding: 40px 0 60px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .design {
+    gap: 54px;
+  }
+}

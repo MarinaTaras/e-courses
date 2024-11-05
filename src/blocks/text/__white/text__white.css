@@ -1,0 +1,8 @@
+.text__white {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: white;
+  margin-top: 20px;
+  letter-spacing: -0.2px;
+}

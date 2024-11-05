@@ -1,0 +1,13 @@
+.scaner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 65px;
+  gap: 30px;
+}
+
+@media screen and (min-width: 720px) {
+  .scaner {
+    gap: 50px;
+    padding: 40px 0 100px;
+  }
+}

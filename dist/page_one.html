@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание Labmedia. Макет электронного курса</title>
+    <link href="./pages/index.css" rel="stylesheet" />
+  </head>
+
+  <body class="page">
+    <div class="page__wrapper">
+      <header class="header">
+        <div class="header__wrapper">
+          <div class="logos">
+            <div class="logo-el">
+              <img src="./images/logo_el.svg" alt="" />
+            </div>
+            <div class="logo-m">
+              <img src="./images/logo-m.svg" alt="" />
+            </div>
+          </div>
+          <div class="curse-name">Название курса в одну строку</div>
+          <div class="header__menu_wrapper">
+            <div class="header__menu" onclick="makeActive(this)">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="divider">
+          <span></span>
+        </div>
+      </header>
+
+      <main class="content">
+        <h1 class="title">Еще больше возможностей</h1>
+
+        <hr />
+
+        <section class="design">
+          <h2 class="design__title">Новый дизайн</h2>
+          <div class="design__container">
+            <div class="advantage-first">
+              <img
+                class="advantage-first__img"
+                src="./images/phones_720.png"
+                alt="Три телефона в ряд"
+                srcset="
+                  ./images/phones_1000.png 1000w,
+                  ./images/phones_720.png   720w,
+                  ./images/phones_320.png   320w
+                "
+                type="image/png"
+              />
+              <hr class="hr_white" />
+              <p class="text_white">
+                Абсолютно новый Infinity-O экран — на передней стороне смартфона
+                нет ничего, кроме огромного экрана и фронтальной камеры.
+              </p>
+            </div>
+            <div class="advantage-second">
+              <img
+                class="advantage-second__img"
+                src="./images/black&white_1000.png"
+                alt="белый и черный"
+              />
+              <hr />
+              <p class="text_black">
+                Для любителей роскоши, модель S10+ будет выпускаться в
+                керамическом корпусе черного и белого цветов.
+              </p>
+            </div>
+            <div class="advantage-third">
+              <div class="colors">
+                <div class="color-circle blur"></div>
+                <div class="color-circle black"></div>
+                <div class="color-circle green"></div>
+                <div class="color-circle lemon"></div>
+              </div>
+              <p class="text_black">
+                Смартфоны доступны в 4х стильных цветах: Перламутр, Аквамарин,
+                Оникс и Цитрус (для S10e).
+              </p>
+            </div>
+            <div class="advantage-fourth">
+              <img
+                class="advantage-fourth_img"
+                src="./images/gorilla_glass.jpg"
+                alt="Логотип Gorilla Glass"
+              />
+              <p class="text_black">
+                В моделях S10 и S10+ установлены защитные стекла нового
+                поколения – Gorilla Glass 6.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- sizes="(max-width: 600px) 480px, (max-width: 1200px) 960px, 100vw" -->
+
+        <hr />
+        <section class="scaner">
+          <h2>Сканер отпечатка в экране</h2>
+          <div class="scaner__container">
+            <img
+              class="scaner__img"
+              src="./images/scaner_1000.jpg"
+              alt="scaner"
+            />
+            <div class="scaner__advantages">
+              <div class="scaner__advantage">
+                <img
+                  class="scaner__advantage_img"
+                  src="./images/quality.svg"
+                  alt="Качество съемки"
+                />
+                <p class="text_black scaner__text">
+                  Отличное качество съемки новых поколениесмартфонов Samsung
+                  позволит создать и смотреть праздники, семейные торжества и
+                  памятные моменты на огромном экране, с яркими, живыми цветами
+                  и прекрасной детализацией.
+                </p>
+              </div>
+              <div class="scaner__advantage">
+                <img
+                  class="scaner__advantage_img"
+                  src="./images/stabilization.svg"
+                  alt="Стабилизация"
+                />
+                <p class="text_black scaner__text">
+                  Дополнительная система стабилизации сделает видеоролики
+                  плавными и красивыми.
+                </p>
+              </div>
+              <div class="scaner__advantage">
+                <img
+                  class="scaner__advantage_img"
+                  src="./images/slowing.svg"
+                  alt="Замедленная съемка"
+                />
+                <p class="text_black scaner__text">
+                  Сверхзамедленная съемка (960 кадров в секунду) теперь в 2 раза
+                  дольше. Камера в S10 способна распознать самое стремительное
+                  движение, такое как языки пламени, брызги воды, дым из под
+                  колес спорткара.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="accessories">
+          <h2>Аксессуары</h2>
+          <div class="accessories__container">
+            <div class="accessory__container">
+              <img
+                class="accessory__img"
+                src="./images/luxury.jpg"
+                alt="Роскошь"
+              />
+              <hr />
+              <p class="text_black top_20">
+                Для любителей роскоши, модель S10+ будет выпускаться в
+                керамическом корпусе черного и белого цветов.
+              </p>
+            </div>
+            <div class="accessory__container">
+              <img
+                class="accessory__img"
+                src="./images/accessories_power.png"
+                alt="Сила аксессуаров"
+              />
+              <hr />
+              <p class="text_black top_20">
+                Для любителей роскоши, модель S10+ будет выпускаться в
+                керамическом корпусе черного и белого цветов.
+              </p>
+            </div>
+            <div class="accessory__container">
+              <hr />
+              <p class="text_black top_20">
+                Galaxy S10+ в режиме Dex поддерживает широкоформатные мониторы.
+                Мощный смартфон превращается в мощный десктоп.
+              </p>
+            </div>
+            <div class="accessory__container">
+              <hr />
+              <p class="text_black top_20">
+                Смартфон S10 сразу укомплектован защитной пленкой.
+              </p>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class="applications">
+          <h2>Приложения и сервисы Samsung</h2>
+          <div class="applications__container">
+            <div class="application">
+              <img
+                class="application__img"
+                src="./images/Smart_Switch.svg"
+                alt="Приложение Smart Switch"
+              />
+              <p class="text_black top_20">
+                Благодаря приложению Smart Switch можно перенести информацию со
+                старого смартфона на новый.
+              </p>
+            </div>
+            <div class="application">
+              <img
+                class="application__img"
+                src="./images/Samsung_Health.svg"
+                alt="Приложение Samsung Health"
+              />
+              <p class="text_black top_20">
+                Приложение Samsung Health помогает контролировать физическую
+                активность и вести дневник питания.
+              </p>
+            </div>
+            <div class="application">
+              <img
+                class="application__img"
+                src="./images/Bixby.svg"
+                alt="Интеллектуальный помощник Bixby"
+              />
+              <p class="text_black top_20">
+                Интеллектуальный помощник Bixby обеспечит быстрый доступ к
+                переводчику, поиску в Интернете, покупкам и многому другому.
+              </p>
+            </div>
+            <div class="application">
+              <img
+                class="application__img"
+                src="./images/Samsung_pay.svg"
+                alt="Приложение Samsung Pay"
+              />
+              <p class="text_black top_20">
+                Приложение Samsung Pay дает возможность оплачивать свои покупки
+                при помощи смартфона.
+              </p>
+            </div>
+            <div class="application">
+              <img
+                class="application__img"
+                src="./images/SmartThings.svg"
+                alt="Приложение Smart Things"
+              />
+              <p class="text_black top_20">
+                Благодаря приложению Smart Things можно управлять всеми
+                смарт-устройствами дома.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container"></div>
+      </footer>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

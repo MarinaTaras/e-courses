@@ -1,0 +1,17 @@
+.accessory {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  .accessory {
+    max-width: 325px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .accessory {
+    max-width: 222px;
+  }
+}

@@ -1,0 +1,15 @@
+.scaner__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 30px;
+  column-gap: 40px;
+  align-items: start;
+}
+
+@media screen and (min-width: 720px) {
+  .scaner__container {
+    flex-direction: row;
+    width: 100%;
+  }
+}

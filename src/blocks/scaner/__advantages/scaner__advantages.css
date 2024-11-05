@@ -1,0 +1,12 @@
+.scaner__advantages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+@media screen and (min-width: 720px) {
+  .scaner__advantages {
+    gap: 40px;
+  }
+}

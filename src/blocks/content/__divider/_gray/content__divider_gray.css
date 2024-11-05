@@ -1,0 +1,6 @@
+.content__divider_gray {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 1);
+  left: 0;
+  width: 50px;
+}
