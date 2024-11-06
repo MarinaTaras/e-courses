@@ -1196,9 +1196,6 @@ template {
   }
 }
 .text__black {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   justify-self: start;
   font-size: 14px;
   line-height: 21px;
